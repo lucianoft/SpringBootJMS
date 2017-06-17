@@ -5,23 +5,14 @@ import javax.jms.MessageListener;
 import javax.jms.ObjectMessage;
 
 import org.springframework.jms.annotation.JmsListener;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import br.com.pedido.domain.Compra;
 import br.com.pedido.domain.Item;
 
-@Component
+@Service
 public class JmsConsumer implements MessageListener{
 	
-	/*public Compra receive(){
-		System.out.println("recebendo mensagem - inicio");
-		//System.setProperty("org.apache.activemq.SERIALIZABLE_PACKAGES","*");
-		Message<Compra> receiveAndConvert = (Message<Compra>) jmsTemplate.receive(destinationQueue);
-		System.out.println(receiveAndConvert);
-		System.out.println("recebendo mensagem - fim");
-		return null; 
-	}*/
-
 	@JmsListener(destination = "${jms.queue.destination}")
 	@Override
 	public void onMessage(javax.jms.Message message) {
