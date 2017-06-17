@@ -1,4 +1,4 @@
-package br.com.compra;
+package br.com.pedido;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
