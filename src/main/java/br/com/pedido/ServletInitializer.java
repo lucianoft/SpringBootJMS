@@ -1,4 +1,4 @@
-package br.com.compra;
+package br.com.pedido;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

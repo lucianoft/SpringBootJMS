@@ -1,4 +1,4 @@
-package br.com.compra.controller;
+package br.com.pedido.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -6,10 +6,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import br.com.compra.jms.JmsConsumer;
-import br.com.compra.jms.JmsProducer;
 import br.com.pedido.domain.Compra;
 import br.com.pedido.domain.Item;
+import br.com.pedido.jms.JmsConsumer;
+import br.com.pedido.jms.JmsProducer;
 
 @Controller
 @RequestMapping("/compra")

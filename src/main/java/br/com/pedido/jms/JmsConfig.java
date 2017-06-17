@@ -1,4 +1,4 @@
-package br.com.compra.jms;
+package br.com.pedido.jms;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.springframework.context.annotation.Bean;

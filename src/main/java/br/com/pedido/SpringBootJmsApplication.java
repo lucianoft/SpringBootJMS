@@ -1,4 +1,4 @@
-package br.com.compra;
+package br.com.pedido;
 
 import javax.jms.ConnectionFactory;
 

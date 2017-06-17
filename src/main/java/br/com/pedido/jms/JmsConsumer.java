@@ -1,4 +1,4 @@
-package br.com.compra.jms;
+package br.com.pedido.jms;
 
 import javax.jms.JMSException;
 import javax.jms.MessageListener;

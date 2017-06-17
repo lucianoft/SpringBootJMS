@@ -1,4 +1,4 @@
-package br.com.compra.jms;
+package br.com.pedido.jms;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
