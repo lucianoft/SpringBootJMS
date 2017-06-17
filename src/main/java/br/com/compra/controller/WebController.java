@@ -57,7 +57,10 @@ public class WebController {
         }
 	}
 	
-	@RequestMapping(value="/receive")
+	/**
+	 * @return
+	 */
+	/*@RequestMapping(value="/receive")
 	public ResponseEntity<?> receive(){
 		try{
 			System.setProperty("org.apache.activemq.SERIALIZABLE_PACKAGES","*");
@@ -66,5 +69,5 @@ public class WebController {
         } catch (Exception e) {
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
-	}
+	}*/
 }
